@@ -102,7 +102,7 @@ const Mutation = new GraphQLObjectType({
                 age: { type: new GraphQLNonNull(GraphQLInt) }
             },
             async resolve(parent, { id, name, age }) {
-                return Directors.findByIdAndUpdate(
+                return await Directors.findByIdAndUpdate(
                     id,
                     { name, age },
                     { new: true }
@@ -118,7 +118,7 @@ const Mutation = new GraphQLObjectType({
                 director: { type: GraphQLID }
             },
             async resolve(parent, { id, name, genre, director }) {
-                return Movies.findByIdAndUpdate(
+                return await Movies.findByIdAndUpdate(
                     id,
                     { name, genre, director },
                     { new: true }
