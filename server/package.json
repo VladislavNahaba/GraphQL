@@ -1,0 +1,34 @@
+{
+  "name": "graphqlproject",
+  "version": "1.0.0",
+  "description": "node graphql api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "graphql",
+    "api",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavNahaba/GraphQL.git"
+  },
+  "author": "Nahaba Vladislav <nahabavladislav@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladislavNahaba/tensorflow-js/issues"
+  },
+  "homepage": "https://github.com/VladislavNahaba/tensorflow-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.10.14"
+  },
+  "devDependencies": {
+    "config": "^3.3.2",
+    "nodemon": "^2.0.6"
+  }
+}

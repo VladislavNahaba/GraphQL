@@ -1,0 +1,5 @@
+{
+    "port": 9000,
+    "mongoUrl": "mongodb://localhost/mongoose_db",
+    "baseUrl": "http://localhost:9000"
+}
